@@ -1,0 +1,511 @@
+.main__categories{
+    margin-top: 80px;
+}
+.main__categories_title{
+    color: #18154B;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main__categories_cards{
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.main_card__main{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    padding-left: 35px;
+    color: #303239;
+    font-size: 18px;
+    line-height: 130%;
+    gap: 20px;
+}
+.main_card__mains{
+    position: absolute;
+    top: 220px;
+    display: flex;
+    padding-left: 35px;
+    color: #303239;
+    font-size: 18px;
+    line-height: 130%;
+    gap: 20px;
+}
+.main_card__main_text{
+    width: 160px;
+    padding-top: 10px;
+}
+.main__cards_btn{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #18154B;
+}
+.main__cards_btn_arrow{
+    width: 30px;
+    height: 12px;
+}
+.main__achievements{
+    position: relative;
+    margin-top: 80px;
+}
+.achievement_media{
+    position: absolute;
+    height: 374px;
+    opacity: 0;
+}
+.main__achievements_gap{
+    display: flex;
+    gap: 79px;
+}
+.main__achievements_main_img{
+    position: absolute;
+    top: -25px;
+}
+.main__achievements_main{
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    flex-direction: column;
+}
+.main__achievements_media{
+    position: absolute;
+    opacity: 0;
+}
+.main__achievements_main_title{
+    position: absolute;
+    width: 341px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.achievement_point-text{
+    max-width: 150px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.achievement_point-texts{
+    max-width: 128px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.achievements_point-texts{
+    max-width: 176px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main__achievement{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main__achievement-points{
+    position: absolute;
+    top: 50px;
+    left: 430px;
+    display: flex;
+    gap: 40px 93px;
+    flex-wrap: wrap;
+}
+.main__hits_sale{
+    margin-top: 74px;
+}
+.main__hits_sale_title_text{
+    color: #18154B;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main__hits_sale_cards{
+    width: 220px;
+    height: 360px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 7, 94, 0.10);
+}
+.main__hits_media{
+    opacity: 0;
+}
+.main__hits_sale_card_main{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main__hits_sale_card_state{
+    width: auto;
+    height: auto;
+    background-color: #F0F5FB;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 3px 10px 3px;
+    align-items: flex-start;
+    gap: 10px;
+    color: linear-gradient(74deg, #0D748B -10.13%, #1A0B73 75.49%);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+}
+.main__hits_sale_card_img{
+    width: 160px;
+    height: 160px;
+}
+.main__hits_sale_card{
+    display: flex;
+    gap: 122px;
+}
+.main__hits_sale_card_main_name{
+    color: #303239;
+    font-size: 14px;
+    font-weight: 600;
+}
+.name_media{
+    position: absolute;
+    opacity: 0;
+}
+.main__hits_sale_card_status{
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.main__main_color{
+    width: 6px;
+    height: 6px;
+    background-color: #38B0C1;
+    border-radius: 50%;
+}
+.main__main_price{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+.main__main_priceS{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.main__main_priceM{
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+.main__main_price_sale{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.main__main_price_ru{
+    color: #303239;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main__main_price_ru_sale{
+    text-decoration: line-through;
+    color: #9B9B9B;
+    font-size: 10px;
+    font-weight: 600;
+}
+.main__main_price_basket{
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+    background: #F0F5FB;
+    padding: 9px;
+}
+.main__main_price_basketZ{
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+    background: linear-gradient(74deg, #0D748B -10.13%, #1A0B73 75.49%);
+    padding: 9px;
+}
+.main__main_button{
+    width: 180px;
+    height: 44px;
+    border-radius: 50px;
+    background: linear-gradient(74deg, #0D748B -10.13%, #1A0B73 75.49%);
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito-Sans';
+}
+.main__main_button:hover{
+    background: var(--, linear-gradient(74deg, #0D748B -10.13%, #1A0B73 75.49%), #FFF);
+    box-shadow: 0px 4px 20px 0px rgba(26, 11, 115, 0.40);
+}
+.main__main_button:active{
+    background: linear-gradient(0deg, rgba(24, 21, 75, 0.60) 0%, rgba(24, 21, 75, 0.60) 100%), linear-gradient(74deg, #0D748B -10.13%, #1A0B73 75.49%);
+}
+.main__cards_container{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.main__hits_cards_points{
+    display: flex;
+    gap: 20px;
+}
+.main__hits_media{
+    position: absolute;
+    opacity: 0;
+}
+.more__media{
+    opacity: 0;
+}
+.main__hit_paginations{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.main__hit_pagination{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(56, 176, 193, 0.40);
+    border-radius: 50px;
+}
+.main__hit_pagination:hover{
+    background-color: #38B0C1;
+    width: 12px;
+    height: 12px;
+}
+.main__about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main__about-text-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.mein__about_title{
+    color: #18154B;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main__text{
+    width: 645px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__about_description{
+    color: #303239;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+}
+.main__achievements_about{
+    display: flex;
+    gap: 55px;
+}
+.main__achievement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__description{
+    max-width: 134px;
+    color: #303239;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+}
+.main__application-form{
+    margin-top: 78px;
+}
+.main__application-form_background{
+    position: relative;
+}
+.about_media{
+    position: absolute;
+    opacity: 0;
+}
+.main_article-form{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_uppercase{
+    width: 620px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.main_small{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form_media{
+    position: absolute;
+    opacity: 0;
+}
+.inputs_text{
+    display: flex;
+    gap: 20px;
+}
+.main__checkbox_media{
+    position: absolute;
+    opacity: 0;
+}
+.input_text{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    padding: 16px 15px 20px;  
+    border-radius: 50px;
+    border: 1px solid rgba(243, 243, 243, 0.70);
+    background: rgba(255, 255, 255, 0.30);
+}
+.input_text:active{
+    border: 1px solid #F3F3F3;
+    background: rgba(255, 255, 255, 0.50);
+}
+.input_text::grammar-error{
+    border: 1px solid #FF1414;
+}
+.form_button{
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 15px 81px 15px 80px;
+    border-radius: 50px;
+    background: #FFF;
+    color: #18154B;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.form_button:hover{
+    box-shadow: 0px 4px 30px 0px rgba(255, 255, 255, 0.40);
+}
+.form_button:active{
+    background: linear-gradient(0deg, rgba(24, 21, 75, 0.15) 0%, rgba(24, 21, 75, 0.15) 100%), #FFF;
+}
+input{
+    font-family: Nunito-Sans;
+    color: #F3F3F3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
+}
+.main__checkbox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.input__checkbox{
+    width: 14px;
+    height: 14px;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #FFF;
+}
+.chexbox__texts{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.checkbox__text{
+    color: #F3F3F3;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text_underline{
+    color: #F3F3F3;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.main__article{
+    display: flex;
+    justify-content: space-between;
+}
+.main__contacts{
+    margin-top: 80px;
+}
+.main__contact{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact__uppercase{
+    color: #18154B;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.contact__underline{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #303239;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+}
+.contact__connection{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact__icon{
+    width: 16px;
+    height: 16px;
+}
+.contact__social_network{
+    display: flex;
+    gap: 20px;
+}
+.contact__uppercase{
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.contact__connection{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+}
+.contact_map{
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 7, 94, 0.10);
+}
+.map_media{
+    position: absolute;
+    opacity: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 7, 94, 0.10);
+}
