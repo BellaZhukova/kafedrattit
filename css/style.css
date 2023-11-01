@@ -1,0 +1,24 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #42AAFF;
+    height: auto;
+    padding: 10px 10px;
+    gap: 10px;
+}
+#labelInp{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #7bc8f6;
+    border-radius: 8px;
+}
+.input[type=file]{
+    border: none;
+    background: none;
+}
