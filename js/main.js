@@ -1,4 +1,4 @@
-function AddFile(){
+function AddFile(){ //Функция добавления файла
     document.getElementById("jsonFileInput").addEventListener("change", function() { //загрузка файла
         let file_to_read = document.getElementById("jsonFileInput").files[0];
         let fileRead = new FileReader();
@@ -14,20 +14,21 @@ function AddFile(){
         )
     }
 
-function form (parse){
+function form (parse){ //Функция создания форма
     let form = document.createElement('form') //создание формы
     form.setAttribute('action', '#')
     form.setAttribute('class','form')
+    form.setAttribute('id', 'id__form')
     document.body.appendChild(form)
 
-    function name(){
+    function name(){ //Функция передачи свойства Имени из json
         let name = document.createElement('p')
         name.setAttribute('class', 'name')
         name.innerHTML = parse.name
         form.appendChild(name)
     }
 
-    function fields(){
+    function fields(){ //Функция создания и заполнения label и input
 
         let div = document.createElement('div')
         div.setAttribute('class', 'form__inputs')
@@ -90,7 +91,7 @@ function form (parse){
                 div.appendChild(readInput)
 
 
-                if (parse.fields[field].input.placeholder){
+                if (parse.fields[field].input.placeholder){ //Проверка на атрибуты
                     readInput.setAttribute('placeholder', parse.fields[field].input.placeholder)
                 } //далее у нас идет перебор атрибутов к тегам (выпадающие списки ещё в разработке)
                 if(parse.fields[field].input.type){
@@ -112,7 +113,7 @@ function form (parse){
             }
         }
     }
-    function references(){
+    function references(){ //Функция согласия на Принятия условий сайта
 
         let divRef = document.createElement('div')
         divRef.setAttribute('id', 'divRef')
@@ -149,7 +150,7 @@ function form (parse){
         }
     }
 
-    function button(){
+    function button(){ //Добавление кнопок из формы
         let button__div = document.createElement('div')
         button__div.setAttribute('class', 'button__div')
         form.appendChild(button__div)
@@ -159,27 +160,27 @@ function form (parse){
             button__div.appendChild(buttons)
         }
     }
-    function resButton(){
-        document.getElementById('form').reset()
+    function clearButton() { //Добавление кнопки полного удаления формы
+        let clearButton = document.createElement('button');
+        clearButton.setAttribute('id', 'clear');
+        clearButton.innerHTML = "Reset";
+        form.appendChild(clearButton);
+
+        clearButton.addEventListener('click', function() {
+            document.getElementById("jsonFileInput").value = ""
+            document.getElementById('id__form').reset()
+            document.getElementById('id__form').remove()
+        });
     }
-    function res(){
-        document.getElementById('form').reset();
-        let cancel = document.createElement('button');
-        cancel.innerHTML = "Reset";
-        form.document.getElementById('form').appendChild(cancel);
-    }
+
     name(parse)
     fields(parse)
     references(parse)
     button(parse)
-    res(parse)
+    clearButton(parse)
 }
 
 
 
-AddFile() //Неудачная попытка создать форму
-// let button = document.createElement('button')
-// button.setAttribute('id', 'reset')
-// button.reset(AddFile)
-// document.body.appendChild(button)
+AddFile()
 

@@ -27,6 +27,14 @@ button{
     color: #FFF;
     background: #E0BEA2;
 }
+button:hover{
+    background: #E0BEA2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+button:active{
+    background: #CCA88A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 p{
     color: #252525;
 }
